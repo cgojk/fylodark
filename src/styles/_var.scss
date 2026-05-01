@@ -1,0 +1,83 @@
+
+
+/* Custom Properties */
+/* ----------------  */
+
+:root {
+	--neutral-900: hsl(0 0% 0%);
+	--neutral-400: hsl(0 0% 75%);
+	--neutral-0: hsl(0 100% 100%);
+
+	--navy-950: hsl(216 53% 9%);
+	--navy-900: hsl(218 28% 13%);
+	--navy-850: hsl(217 28% 15%);
+	--navy-800: hsl(219 30% 18%);
+	--navy-50: hsl(222 36% 91%);
+
+	--blue-300: hsl(177 67% 63%);
+	--blue-250: hsl(186 61% 72%);
+
+	--red-500: hsl(0 100% 63%);
+
+	--gradient: linear-gradient(
+		90deg,
+		hsl(175 68% 64%) 0%,
+		hsl(198 60% 50%) 100%
+	);
+
+	--fs-600: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);
+	--fs-500: clamp(0.875rem, 0.8rem + 0.375vw, 1.25rem);
+	--fs-400: clamp(0.875rem, 0.85rem + 0.125vw, 1rem);
+	--fs-300: 0.875rem;
+	--fs-200: 0.75rem;
+	--fs-100: clamp(0.625rem, 0.575rem + 0.25vw, 0.875rem);
+	--fs-50: 0.4375rem;
+
+	--ff-sans-accent: 'Raleway', sans-serif;
+	--ff-sans-normal: 'Open Sans', sans-serif;
+
+	--fw-700: 700;
+	--fw-400: 400;
+
+	/* Text Presets as CSS Variables */
+	--font-1: var(--fw-700) var(--fs-600)/1.2 var(--ff-sans-accent);
+	--font-2: var(--fw-700) var(--fs-500)/1.2 var(--ff-sans-accent);
+	--font-3: var(--fw-700) var(--fs-400)/1.2 var(--ff-sans-accent);
+	--font-4: var(--fw-700) var(--fs-300)/1.2 var(--ff-sans-accent);
+	--font-5: var(--fw-700) var(--fs-200)/1.2 var(--ff-sans-accent);
+	--font-6: var(--fw-400) var(--fs-500)/1.5 var(--ff-sans-normal);
+	--font-7: var(--fw-400) var(--fs-400)/1.5 var(--ff-sans-normal);
+	--font-8: var(--fw-400) var(--fs-300)/1.5 var(--ff-sans-normal);
+	--font-9: var(--fw-400) var(--fs-100)/1.8 var(--ff-sans-normal);
+	--font-10: var(--fw-400) var(--fs-50)/1.5 var(--ff-sans-normal);
+
+	--spacing-1400: 7rem;
+	--spacing-1300: 6.5rem;
+	--spacing-1200: 6rem;
+	--spacing-1100: 5.5rem;
+	--spacing-1000: 5rem;
+	--spacing-900: 4.5rem;
+	--spacing-800: 4rem;
+	--spacing-700: 3.5rem;
+	--spacing-600: 3rem;
+	--spacing-500: 2.5rem;
+	--spacing-400: 2rem;
+	--spacing-300: 1.5rem;
+	--spacing-200: 1rem;
+	--spacing-150: 0.625rem;
+	--spacing-100: 0.5rem;
+	--spacing-0: 0rem;
+
+	--radius-full: 999px;
+	--radius-28: 28px;
+	--radius-24: 24px;
+	--radius-20: 20px;
+	--radius-16: 16px;
+	--radius-12: 12px;
+	--radius-10: 10px;
+	--radius-8: 8px;
+	--radius-6: 6px;
+	--radius-4: 4px;
+	--radius-0: 0px;
+}
+
