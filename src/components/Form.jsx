@@ -18,7 +18,7 @@ return(
 
 <section className="container form__section">
     <div className="form__details">
-        <div className="form__title">
+        <div className="form__content">
            <h1 className="form__title">Get early access today</h1>
            <p className="form__text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
         </div>

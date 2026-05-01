@@ -520,6 +520,7 @@ h4 {
 }
 
 .testimonial__wrapper {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   gap: 2em;
@@ -532,6 +533,18 @@ h4 {
   background-color: var(--navy-800);
   padding: var(--spacing-300);
   box-shadow: 5px 5px 13px rgba(255, 255, 255, 0.04);
+}
+
+.testimonial__wrapper::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -5;
+  width: 60px; /* control size */
+  height: 60px;
+  background: url("../assets/images/bg-quotes.png") no-repeat center;
+  background-size: contain;
+  z-index: -1;
 }
 
 .testimonials_profile {
@@ -623,6 +636,11 @@ h4 {
     transform: translateY(-100%);
     z-index: 0;
   }
+  .form__input {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-300);
+  }
 }
 .form__section {
   background-color: var(--navy-850);
@@ -644,13 +662,13 @@ h4 {
   gap: 2em;
 }
 
-.form__title {
+.form__content .form__title {
   font: var(--font-2);
   color: var(--neutral-0);
   text-align: center;
 }
 
-.form__text {
+.form__content .form__text {
   font: var(--font-8);
   color: var(--neutral-0);
   text-align: center;

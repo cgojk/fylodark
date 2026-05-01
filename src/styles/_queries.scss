@@ -79,4 +79,10 @@
     transform: translateY(-100%);
     z-index: 0;
   }
+  .form__input{
+    display:flex;
+    flex-direction:row;
+    gap:var(--spacing-300);
+    align-items:flex-end;
+  }
 }

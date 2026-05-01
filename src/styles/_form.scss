@@ -22,12 +22,12 @@
     align-items:center;
     gap:2em;
 }
-.form__title{
-    font:var(--font-2);
+.form__content  .form__title{
+    font:var(--font-1);
     color:var(--neutral-0);
     text-align: center;
 }
-.form__text{
+.form__content .form__text{
     font:var(--font-8);
     color:var(--neutral-0);
     text-align: center;
