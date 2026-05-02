@@ -18,19 +18,10 @@ export default function Main(){
        <Services/>
        <Information/>
        <SectionTestimonials/>
+       <div className="bottom__wrapper">
          <Form/>
          <Footer/>
-
-
-     
-      
-
-     
-                    
-
-
-
-           
+       </div>
       </main>
   );
 }
