@@ -428,7 +428,7 @@ h4 {
     color:var(--neutral-0);
     display:grid;
     gap:var(--spacing-900);
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding-top:2em;
    
 
@@ -469,7 +469,6 @@ h4 {
     font:var(--font-8);
     text-align: center;
   }
-
 
   // informaiton seciton styles
 
