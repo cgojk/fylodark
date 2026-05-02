@@ -85,4 +85,8 @@
     gap:var(--spacing-300);
     align-items:flex-end;
   }
+  .wrapper__content{
+    flex-direction:row;
+    justify-content:space-between;
+  }
 }

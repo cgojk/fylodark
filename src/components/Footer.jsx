@@ -41,14 +41,17 @@ export default function Footer() {
 
     <nav className="footer__nav">
         <ul className="nav-footer-list">
-           
-            <li><Link to="/about" className="nav-footer-item">About</Link></li>
-            <li><Link to="/jobs" className="nav-footer-item">Jobs</Link></li>
-            <li><Link to="/press" className="nav-footer-item">Press</Link></li>
-            <li><Link to="/blog" className="nav-footer-item">Blog</Link></li>
-            <li><Link to="/contact us" className="nav-footer-item">Contact Us</Link></li>
-            <li><Link to="/terms" className="nav-footer-item">Terms</Link></li>
-            <li><Link to="/privacy" className="nav-footer-item">Privacy</Link></li>
+            <div>
+               <li><Link to="/about" className="nav-footer-item">About</Link></li>
+               <li><Link to="/jobs" className="nav-footer-item">Jobs</Link></li>
+               <li><Link to="/press" className="nav-footer-item">Press</Link></li>
+               <li><Link to="/blog" className="nav-footer-item">Blog</Link></li>
+            </div>
+            <div className="footer-group">
+                <li><Link to="/contact us" className="nav-footer-item">Contact Us</Link></li>
+                <li><Link to="/terms" className="nav-footer-item">Terms</Link></li>
+                <li><Link to="/privacy" className="nav-footer-item">Privacy</Link></li>
+            </div>
         </ul>
     </nav>
     
