@@ -44,7 +44,7 @@ export default function Footer() {
                                         <p className="footer__location-email">hello@fylo.com</p>
                                     </div>
                                 </div>
-                    </div>
+                         </div>
                 
           <div className="footer__content__wrapper">
                 <nav className="footer__nav">

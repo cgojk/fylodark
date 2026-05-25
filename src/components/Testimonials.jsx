@@ -5,7 +5,7 @@ export default function Testimonials(props){
  
 return(
 
-<div className="testimonials__section">
+<section className="testimonials__section">
       
       <div className="testimonials-content">
                <p className="testimonials-text">{text}</p>
@@ -18,7 +18,7 @@ return(
             </div>
       </div>
     
-</div>
+</section>
 
 
 );
